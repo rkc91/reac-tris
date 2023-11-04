@@ -1,0 +1,29 @@
+.Menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    z-index: 100;
+}
+
+.Button {
+    margin: 40px;
+    padding: 40px 80px;
+    font-size: 2em;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    color: aliceblue;
+    background-color: #04AA6D;
+    box-shadow: black 0px 0px 50px;
+}
+
+.Button:hover {
+    background-color: #06c57f;
+    box-shadow: rgb(59, 59, 59) 0px 0px 50px;
+}
+.Button:active {
+    background-color: #049b63;
+    transform: translateY(1px);
+}
+
